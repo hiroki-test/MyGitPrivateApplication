@@ -1,0 +1,19 @@
+package com.lib.mygitapp.mygitlibrary;
+
+public interface RetrieverConst {
+
+	String AUDIO_CODEC_FLAC = "flac";
+	String AUDIO_CODEC_AAC = "aac";
+
+	String METADATA_KEY_TITLE_FLAC = "TITLE";
+	String METADATA_KEY_ALBUM_FLAC = "ALBUM";
+	String METADATA_KEY_ARTIST_FLAC = "ARTIST";
+	String METADATA_KEY_TITLE_KANA_FLAC = "TITLESORT";
+	String METADATA_KEY_TITLE_KANA_AAC = "sort_name";
+	String METADATA_KEY_ARTIST_KANA_FLAC = "ARTISTSORT";
+	String METADATA_KEY_ARTIST_KANA_AAC = "sort_artist";
+	String METADATA_KEY_ALBUM_KANA_FLAC = "ALBUMSORT";
+	String METADATA_KEY_ALBUM_KANA_AAC = "sort_album";
+	String METADATA_KEY_ALBUMARTIST_KANA_FLAC = "ALBUMARTISTSORT";
+	String METADATA_KEY_ALBUMARTIST_KANA_AAC = "sort_album_artist";
+}
